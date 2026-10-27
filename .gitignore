@@ -1,0 +1,29 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Secretos y entorno local (constitución P9); .env.example sí se versiona
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Claude Code: configuración personal (la del proyecto, settings.json, se versiona)
+.claude/settings.local.json
+
+# Resultados locales de la prueba de carga y reportes
+k6-results/
+*.log
